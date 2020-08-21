@@ -96,4 +96,4 @@ tidy_data <- all_data %>%
   summarize_each(funs(mean)) %>%
   arrange(activity, subject.id)
 
-write.table(tidy_data, "tidyDatat.txt", row.names = FALSE)
+write.table(tidy_data, "tidyData.txt", row.names = FALSE)
