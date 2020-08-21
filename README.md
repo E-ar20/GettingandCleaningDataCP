@@ -17,3 +17,5 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
     + Uses descriptive activity names to name the activities in the data set.
     + Appropriately labels the data set with descriptive variable names.
     + From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+2. ```tidyData.txt```: This is the output once the run_analysis.R script is run. The data is a tidy dataset with averages by activity and subject ID.
